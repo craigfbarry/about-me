@@ -1,40 +1,53 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
 
-    <title>About Me</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>About me</title>
+
+  <style>
+    
+      .col{background-color: rgb(148, 119, 175); 
+        height: 200px;
+        padding: 10px;
+      }
+      .col-4{
+        height: 200px;
+        background-color: coral;
+
+      }
+      .col-8{
+        height: 200px;
+        background-color: cornflowerblue;
+      }
+
+  </style>
 
 </head>
 
 <body>
-    <header class='masthead'>
-        <p class='masthead-intro'>Hi I'm</p>
-        <h1 class='masthead-heading'>Craig Barry</h1>
-    </header>
-    <section class="details">
-      <h1>Introduction</h1>
-      <p>Details here...</p>
-      <h1>Where I'm From</h1>
-      <p>Details here...</p>
-      <h1>What are your favorite hobbies?</h1>
-      <p>Details here...</p>
-      <h1>What's your dream job?</h1>
-      <p>Details here...</p>
-      <h1>Where do you live?</h1>
-      <p>Details here...</p>
-      <h1>Why do you want to be a web developer?</h1>
-      <p>Details here...</p>
-    </section>
+  
+  <div class="container">
+      <img src="img/me.jpg" alt="me" class="rounded-lg" height="200px">
+      <div class="row">
+        <div class="col"><p class="text-center">col</p></div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
 
-    <footer id="footer">
-        <ul class="social">
-          <li><a href="http://www.github.com/usernamehere">Github</a></li>
-        </ul>
-    </footer>
+      </div>
+        <div class="row">
+        <div class="col-8"><p class="text-center">col-8</p></div>
+        <div class="col-4">col-4</div>
+
+      </div>
+     
+
+  </div>
+
 </body>
 
 </html>
