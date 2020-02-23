@@ -15,12 +15,12 @@
         height: 200px;
         padding: 10px;
       }
-      .col-4{
+      .col-sm-4{
         height: 200px;
         
 
       }
-      .col-8{
+      .col-sm-8{
         height: 200px;
         background-color: cornflowerblue;
       }
@@ -28,9 +28,8 @@
         background-image: url(img/varanasi_dawn.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 400px;
-        
       }
+     
 
 
 
@@ -40,10 +39,10 @@
 
 <body>
 
-   
-  <div class="jumbotron jumbotron-fluid">
+ 
+
   
-    <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+    <nav class="navbar navbar-expand-sm navbar-light bg-dark">
       <a href="#" class="navbar-brand">CB
         <img src="img/grimace-solid.svg">
       </a>
@@ -55,12 +54,12 @@
       <div class="collapse navbar-collapse">   
           <ul class="navbar-nav">
             
-            <li class="nav-item pl-5"><a href="portfolio.html" target="_blank">Porfolio</a></li>
-            <li class="nav-item pl-5"><a href="contact.html" target="_blank">Contact</a></li>
+            <li class="nav-item pl-5 mr"><a href="portfolio.html" target="_blank">Porfolio</a></li>
+            <li class="nav-item pl-5 mr"><a href="contact.html" target="_blank">Contact</a></li>
           </ul>
       </div>
     </nav>
-  </div>   
+    
     <div>
 
       <img src="img/varanasi_dawn.jpg" class="img-fluid" alt="Varanasi dawn" max-width="100%">
@@ -72,20 +71,20 @@
   <div class="container">    
       
       <div class="row">
-        <div class="col border rounded-lg m-5"><p class="text-center"></p></div>
-        <div class="col rounded-lg m-5"><img src="img/me.jpg" alt="me" class="rounded-lg" height="150px"></div>
-        <div class="col border rounded-lg m-5"><p class="text-center">col</p></div>
+        <div class="col-sm-6 border rounded-lg p-3"><p class="text-center" height="200px">col</p></div>
+        <div class="col-sm-6 border rounded-lg p-3"><img src="img/me.jpg" alt="me" class="rounded-lg" height="200px"></div>
+        
       </div>
       <div class="row">
-        <div class="col-4">
+        <div class="col-sm-4">
             col-4
         </div>
-        <div class="col-8">col-8</div>
+        <div class="col-sm-8">col-8</div>
 
       </div>
   </div>
   <div class="container">
-    <nav class="navbar fixed-bottom navbar-light bg-light">
+    <nav class="navbar fixed-bottom navbar-light bg-dark">
       <a class="navbar-brand" href="#">Fixed bottom</a>
     </nav>
 
