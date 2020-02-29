@@ -1,10 +1,16 @@
+$theme-colors: (
+  "info": #0f4ba5,
+  "danger": #922621
+);
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
 .hero-text {        
       
     position: absolute;
-    top: 15%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(237, 246, 248);
