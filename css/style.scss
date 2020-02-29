@@ -10,7 +10,7 @@ $theme-colors: (
 .hero-text {        
       
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(237, 246, 248);
@@ -25,6 +25,3 @@ $theme-colors: (
     margin:auto;
   }
 
-  .nav-item:hover {
-    color: #ffffff;
-}
